@@ -12,11 +12,12 @@ body {
 
 #header-main {
 	background-color: #fff;
-	max-width: 850px;  
+	max-width: 850px;  	
 }
 
+
 #header-main, h1 {
-	text-align: center; 
+	text-align: left; 
 }
 #leftcol {
 	float: left; 
