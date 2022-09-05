@@ -8,6 +8,16 @@ body {
 	background-color: rgba(83,83,83,1.00); 
 }
 
-ul {
+.main ul {
+	width: auto; 
+	float: right; 
+	margin-right: 50px; 
+}
+li {
+	display: inline; 
+	 
+}
+
+.leftcol ul {
 	display: inline-block; 
 }
