@@ -72,6 +72,10 @@ a{
 	background-color: rgba(215,211,211,1.00);
 }
 
+ul{
+	
+}
+
 .content{
 	display: flex; 
 	justify-content: center; 
@@ -83,8 +87,15 @@ a{
 	background-color: rgba(245,215,215,1.00);
 	height: 90px; 
 	display: flex; 
-	flex-direction: column; 
 	align-items: center; 
+	justify-content: center; 
+}
+.tasty{
+	margin-top: 10px; 
+}
+
+.social-links{
+	margin: 20px; 
 }
 
 
