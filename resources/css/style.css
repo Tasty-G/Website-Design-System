@@ -8,26 +8,86 @@
 #header{
 	width: 100%; 
 	height: 80px; 
-	background: #009688; 
-	
+	background: #009688; 	
 }
 
-.header-container{
-	
+.sidebar{
+	width: 250px; 	
+}
+
+body{
+	height: 100vh; 
 	display: flex; 
-
-	flex-direction: row; 
+	flex-flow: column; 
 }
 
-.header-left{
-	text-align: left; 
-	 
+header{
+	background-color: rgba(245,215,215,1.00);
+	padding: 3px 12px; 
+	font-weight: bold; 
+	display: flex; 
+	align-content: center; 
+	justify-content: center; 
 }
 
-.header-right{
-	flex-flow: row; 
-	justify-content: flex-end; 	
+.row {
+	width: 90%; 
+	height: 500px; 
+	display: flex; 
+	flex: 1; 
+	
 }
+
+.sidebar{
+	flex-shrink: 0; 
+	padding: 20px; 
+}
+
+ul{
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	
+}
+
+
+
+
+ul{
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+li{
+	margin-bottom: 16px; 
+	margin-top: 16px; 
+	margin-left: 50px; 
+	
+}
+
+a{
+	text-decoration: none; 
+	font-size: 16px; 
+	background-color: rgba(215,211,211,1.00);
+}
+
+.content{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	
+}
+
+#footer{
+	background-color: rgba(245,215,215,1.00);
+	height: 90px; 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+}
+
+
 
 
 
