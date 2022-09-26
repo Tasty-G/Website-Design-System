@@ -1,41 +1,50 @@
-
 *{
-	margin: 0px; 
-	padding: 0px; 
+	padding: 0; 
+	margin: 0; 
 	font-family: 'Poppins', sans-serif;
 }
 
-#header{
-	width: 100%; 
-	height: 80px; 
-	background: #009688; 	
+header{
+	 height: 72px;
+  background: darkmagenta;
+  color: white;
 }
 
 .sidebar{
-	width: 250px; 	
+	width: 250px; 
+	background-color: rgba(226,205,250,1.00);
 }
 
+.content{
+	background-color: rgba(188,189,246,1.00);
+}
+
+.footer{
+	height: 60px; 
+	background: darkmagenta;
+    color: white;
+}
+
+/*----Solution----*/
+
 body{
-	height: 100vh; 
 	display: flex; 
-	flex-flow: column; 
+	flex-direction: column; 
+	
 }
 
 header{
-	background-color: rgba(245,215,215,1.00);
-	padding: 3px 12px; 
-	font-weight: bold; 
 	display: flex; 
-	align-content: center; 
+	align-items: center; 
 	justify-content: center; 
+	padding: 0 16px; 
+	font-size: 26px; 
+	font-weight: bolder; 
 }
 
-.row {
-	width: 90%; 
-	height: 500px; 
-	display: flex; 
+.body{
 	flex: 1; 
-	
+	display: flex; 
 }
 
 .sidebar{
@@ -44,73 +53,41 @@ header{
 }
 
 ul{
-	display: flex; 
-	flex-direction: column; 
-	align-items: center; 
-	
-}
-
-
-
-
-ul{
-	list-style-type: none; 
+	list-style-type: none;
 	margin: 0; 
 	padding: 0; 
 }
 
 li{
-	margin-bottom: 16px; 
-	margin-top: 16px; 
-	margin-left: 50px; 
-	
+	margin-bottom: 20px; 
+	margin-top: 20px; 
 }
 
-a{
+a{ 
+	color: rebeccapurple; 
 	text-decoration: none; 
-	font-size: 16px; 
-	background-color: rgba(215,211,211,1.00);
+	font-size: 24px; 
 }
 
-ul{
-	
+.container{
+	padding: 30px; 
+	display: flex; 
+	flex-wrap: wrap; 
 }
 
-.content{
+.card{
+	padding: 10px; 
+	margin: 15px; 
+	width: 300px; 
+	height: 300px; 
+	overflow: auto; 
+}
+
+.footer{
 	display: flex; 
 	justify-content: center; 
 	align-items: center; 
-	
 }
-
-#footer{
-	background-color: rgba(245,215,215,1.00);
-	height: 90px; 
-	display: flex; 
-	align-items: center; 
-	justify-content: center; 
-}
-.tasty{
-	margin-top: 10px; 
-}
-
-.social-links{
-	margin: 20px; 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
