@@ -5,14 +5,23 @@
 }
 
 header{
-	 height: 72px;
-  background: darkmagenta;
+	height: 72px;
+  background-color: #14117D;
   color: white;
+}
+.footer{
+	background-color: #14117D;
 }
 
 .sidebar{
 	width: 250px; 
-	background-color: rgba(226,205,250,1.00);
+	background-color: #888;
+}
+
+.side-container{
+	padding: 20px; 
+	margin: 15px; 
+	min-height: 250px; 	
 }
 
 .content{
@@ -49,14 +58,21 @@ header{
 
 .sidebar{
 	flex-shrink: 0; 
-	padding: 20px; 
+	
 }
+
 
 ul{
 	list-style-type: none;
 	margin: 0; 
 	padding: 0; 
+	min-height: 400px;  
+	display: flex; 
+	flex-direction: column; 
+	align-items: center
 }
+
+
 
 li{
 	margin-bottom: 20px; 
@@ -71,17 +87,86 @@ a{
 
 .container{
 	padding: 30px; 
+	width: 90%; 
 	display: flex; 
 	flex-wrap: wrap; 
 }
-
-.card{
-	padding: 10px; 
-	margin: 15px; 
-	width: 300px; 
-	height: 300px; 
-	overflow: auto; 
+#top{
+	min-height: 250px; 
+	position: relative; 
+	top: 50px; 
+	left: 10px; 
 }
+
+#top h2{
+	text-align: center; 
+	margin-bottom: 50px; 
+}
+
+#top p{
+	text-align: center; 
+}
+
+#color-palette{
+	min-height: 200px; 
+	width: 100%
+}
+
+.color-palette{
+	height: 150px; 
+}
+.color-palette{
+	flex: 1; 
+	display: flex; 
+	flex-wrap: wrap; 
+	align-items: center; 
+	justify-content: center; 
+	 
+}
+
+
+.col-item{
+	width: 100px;
+	height: 100px; 
+	border-radius: 50px
+}
+
+#one{
+	background-color: #0A0947;
+}
+
+#two{
+	background-color: #7675E0;
+}
+#three{
+	background-color: #1B18C7;
+}
+#four{
+	background-color: #2F2F52;
+}
+#five{
+	background-color: #14117D;
+}
+
+.layer{
+	background: transparent; 
+	height: 100%; 
+	width: 100%; 
+	position: relative; 
+	top: 0; 
+	left: 0; 
+}
+
+.layer h3{
+	font-weight: 500;
+	color: #fff;
+	font-size: 20px;
+	bottom: 50%;
+	left: 50%; 
+	transform: translateX(-50%); 
+	position: absolute;  
+}
+
 
 .footer{
 	display: flex; 
